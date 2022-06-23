@@ -1,0 +1,116 @@
+body 
+{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    margin: 0;
+    border: 0;  
+       
+}
+ul 
+{
+list-style: none;
+}
+a 
+{
+text-decoration: none;
+color:#FFF2E7;
+}
+.header 
+{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.nav ul
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav ul li 
+{
+    padding: 20px;
+    font-family: "Sarala"
+}
+.conteudo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.conteudo .robozinho
+{
+    display: block;
+    max-width: 100%;
+   
+}
+.info h1 
+{
+    font-family: "Sarala";
+    font-size: 64px;
+    color: #FFF2E7;
+    margin: 0 auto;
+    
+}
+.info p 
+{
+    font-size: 24px;
+    color: #ECD6C4;
+}
+#button 
+{
+    display: block;
+    width: 185px;
+    height: 67px;
+    background: #ECD6C4;
+    border-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: 0.1s;
+    
+}
+#button:hover
+{
+background: rgb(59, 52, 52);
+color: #fff;
+}
+.beneficios 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-family: "Sarala";
+    color: #fff;   
+}
+.beneficios h2 
+{
+    border-top: 0.4px solid #fff;
+    font-weight: 400px;
+    font-style: "Sarala";
+    padding-top: 20px;
+
+}
+ol > li
+{
+    
+    line-height: 29px;
+    color: #ECD6C4;
+    text-align:center;    
+}
+.footer 
+{
+    border-top: 0.4px solid #FFF2E7;
+}
+.footer img 
+{
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
